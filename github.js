@@ -5,7 +5,6 @@ class Github {
     this.client_secret = '84969aeef73956f4ec9e8716d1840532802bb81b';
     this.repos_count = 5;
     this.repos_sort = 'created: asc';
-    this.q = 'Marija';
   }
 
   async getUser(user) {
